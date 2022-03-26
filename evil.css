@@ -654,8 +654,8 @@ td {
 
 #typora-sidebar {
     box-shadow: none;
-    border-right: 1px dashed;
-    border-right: none;
+    border-right: 1px solid;
+    border-color:rgba(117, 114, 114, 0.1);
 }
 
 .sidebar-tabs {
