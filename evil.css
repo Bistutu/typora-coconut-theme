@@ -297,44 +297,10 @@ ol {
 }
 
 /* ul style start*/
-#write ul {
-    margin-left: 0;
-    padding-left: 22px;
-    list-style: none;
+ul {
+    list-style:disc ;
 }
 
-#write ul>li:not([class*=task-list-item]) {
-    word-wrap: break-all;
-    padding-left: 0px;
-}
-
-#write ul>li:not([class*=task-list-item]):before {
-    position: absolute;
-    top: 2px;
-    content: "•";
-    color: #9d56ae !important;
-    display: inline-block;
-    margin-left: -20px;
-    margin-right: 20px;
-    width: 0px;
-    font-size: 0.8em;
-    transform: scale(1.25);
-    font-family: PingFangSC-Regular, PingFang SC;
-}
-
-#write ul>li:not([class*=task-list-item]) li:not([class*=task-list-item])::before {
-    content: "◦";
-    color: #9d56ae !important;
-    transform: scale(1);
-    font-weight: 700;
-}
-
-#write ul>li:not([class*=task-list-item]) li:not([class*=task-list-item]) li:not([class*=task-list-item])::before {
-    content: "☐";
-    color: #9d56ae !important;
-    transform: scale(1.25);
-    font-weight: normal;
-}
 /* ul style end*/
 
 ol {
