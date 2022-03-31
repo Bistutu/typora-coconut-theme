@@ -292,8 +292,7 @@ audio:not([controls]) {
 
 ul,
 ol {
-    padding: 0 0 0 1.875rem;
-    /* 30px */
+    padding: 0 0 0 1.2rem;
 }
 
 /* ul style start*/
@@ -335,7 +334,7 @@ cite {
 blockquote {
     padding-left: 1.875rem;
     margin: 0 0 1.875rem 1.875rem;
-    border-left: solid 2px #474d54;
+    border-left: solid 2px #8ce360;
     padding-left: 30px;
     margin-top: 35px;
 }
@@ -397,18 +396,47 @@ var {
     padding: 2px 5px;
 }
 
+/* table */
+
 table {
-    max-width: 100%;
-    width: 100%;
     border-collapse: collapse;
-    border-spacing: 0;
+    padding: 0;
+    word-break: initial;
+    width: 100%;
 }
 
-th,
-td {
-    padding: 5px 10px;
-    vertical-align: top;
+table tr:nth-child(even) {
+    background-color: var(--bg-color);
 }
+
+thead {
+    background-color: var(--table-head-color);
+}
+
+table th {
+    text-align: center;
+    padding: 6px 13px;
+    border: 1px solid var(--mint-light-color);
+}
+
+table td {
+    padding: 6px 13px;
+    border: 1px solid var(--mint-light-color);
+}
+
+table tr {
+    padding: 6px 13px;
+    border: 1px solid var(--mint-light-color);
+}
+
+#write th,
+#write td {
+    border-color: rgba(187, 145, 248, 0.4);
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+}
+/* table */
 
 a {
     -webkit-transition: all .2s ease-in-out;
