@@ -24,6 +24,18 @@ strong {
     color: #ff9500;
 }
 
+/* 侧边栏style */
+.outline-h3>.outline-item {
+    padding-left: 1em;
+    }
+    .outline-h4>.outline-item {
+        padding-left: 1.5em;
+        }
+
+.outline-h5>.outline-item{
+    padding-left: 2em; 
+}
+
 .md-comment {
     color: rgb(18, 129, 18);
     opacity: .8;
@@ -210,11 +222,11 @@ menu,
 dir {
     display: block;
     list-style-type: disc;
-    margin-block-start: 1em;
+    /* margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding-inline-start: 40px;
+    padding-inline-start: 40px; */
 }
 
 ul ul,
