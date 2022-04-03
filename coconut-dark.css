@@ -1,6 +1,6 @@
-@import "evil/mermaid.dark.css";
-@import "evil/codeblock.dark.css";
-@import "evil/sourcemode.dark.css";
+@import "coconut-dark/mermaid.dark.css";
+@import "coconut-dark/codeblock.dark.css";
+@import "coconut-dark/sourcemode.dark.css";
 :root {
     --bg-color: #353846;
     --text-color: white;
@@ -28,7 +28,7 @@
 }
 /* red  strong*/
 strong {
-    color: #ff0000 !important;
+    color: red !important;
 }
 
 html {
@@ -334,7 +334,7 @@ cite {
 blockquote {
     padding-left: 1.875rem;
     margin: 0 0 1.875rem 1.875rem;
-    border-left: solid 2px #8ce360;
+    border-left: solid 3px #8ce360;
     padding-left: 30px;
     margin-top: 35px;
 }
@@ -351,7 +351,7 @@ var {
 code,
 tt,
 var {
-    background: rgba(0, 0, 0, 0.05);
+    background: #0F111A;
 }
 
 kbd {
@@ -444,7 +444,11 @@ a {
 }
 
 hr {
+    /* cancel the color
+    *
     background: #474d54;
+    *
+    */
     /* variable */
 }
 
