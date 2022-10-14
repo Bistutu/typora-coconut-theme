@@ -13,25 +13,27 @@ html {
     -webkit-font-smoothing: antialiased;
     font-family: monospace, Helvetica, Arial, sans-serif !important;
 }
-/* 设置左菜单栏间距为 0 ，节约空间 */
+/* 设置左菜单栏间距为 0.5em ，节约空间 */
 .outline-content{
-    padding: 0px !important;
+    padding: 0.5em !important;
 }
 
 body {
     color: rgb(51, 51, 51);
     line-height: 1.6;
     font-size: 1.05rem !important;
-    background: #fafaf8!important
     /* 象牙白 */
+    background: #fafaf8!important
+    
 }
 
 strong {
     color: red;
 }
+
 #write {
     max-width: 900px !important;
-    padding: 30px 50px 20px !important;;
+    padding: 20px 40px 20px !important;;
 }
 
 
@@ -94,8 +96,8 @@ h5 {
     font-weight: bold;
     line-height: 1.4;
     cursor: text;
-    color: #008900;
     /* 绿色 */
+    color: #008900;
 }
 
 h1:hover a.anchor,
@@ -141,32 +143,12 @@ h1 {
     text-align: center;
     font-size: 2.25em;
     line-height: 1.2;
-    /* border-bottom: 1px solid #eee; */
 }
 
 h2 {
-    /*text-align: center;*/
     font-size: 1.75em;
     line-height: 1.225;
 }
-
-
-/*@media print {
-    .typora-export h1,
-    .typora-export h2 {
-        border-bottom: none;
-        padding-bottom: initial;
-    }
-
-    .typora-export h1::after,
-    .typora-export h2::after {
-        content: "";
-        display: block;
-        height: 100px;
-        margin-top: -96px;
-        border-top: 1px solid #eee;
-    }
-}*/
 
 h3 {
     font-size: 1.5em;
@@ -182,10 +164,7 @@ h5 {
 }
 
 
-/**
-* <h6> 设置属性：正常、两端对齐
-*/
-
+/** <h6> ：两端对齐 */
 h6 {
     font-size: 1em;
     text-align: justify !important;
@@ -201,7 +180,8 @@ ul,
 ol,
 dl,
 table {
-    margin: 0.8em 0;
+    /* 行高 0.5em */
+    margin: 0.5em 0;
 }
 
 li>ol,
@@ -243,11 +223,6 @@ menu,
 dir {
     display: block;
     list-style-type: disc;
-    /* margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px; */
 }
 
 ul ul,
@@ -286,16 +261,6 @@ mark {
     padding: 0px 4px 2px 4px;
 }
 
-
-/* blockquote {
-    color: #4f4032;
-    border: 1px solid rgb(136, 58, 30, 0.7);
-    background-color: rgba(192, 147, 81, 0.1);
-    border-radius: 4px;
-    padding: 12px 16px;
-    overflow: hidden;
-    box-sizing: border-box;
-} */
 
 blockquote blockquote {
     padding-right: 0;
@@ -383,9 +348,6 @@ tt {
 }
 
 code {
-    /* background-color: #f3f4f4;  */
-    /* 多余的空白会显得大一些
-    padding: 2px;*/
     margin: 2px;
 }
 
@@ -419,7 +381,6 @@ code {
 
 img {
     border: 1px solid var(--coconut-shell-color);
-    /* 取消图片默认的block居中对齐，改为正常模式：左对齐 */
     display: inline !important;
 }
 
@@ -523,11 +484,6 @@ footer {
 .md-lang {
     color: #b4654d;
 }
-
-
-/*.html-for-mac {
-    --item-hover-bg-color: #E6F0FE;
-}*/
 
 #md-notification .btn {
     border: 0;
