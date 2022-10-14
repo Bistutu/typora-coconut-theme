@@ -8,7 +8,6 @@
     --coconut-profile-color: #008900;
     --coconut-profile-shalow-color: rgb(0, 137, 0, 0.15);
 }
-
 html {
     -webkit-font-smoothing: antialiased;
     font-family: monospace, Helvetica, Arial, sans-serif !important;
